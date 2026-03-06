@@ -34,7 +34,7 @@ Setup Instructions
 
 Clone the Repository:
 
-git clone https://github.com/lokeshrautela25/ShopSphere-E-Commerce.git
+git clone https://github.com/lokeshrautela99/ShopSphere-E-Commerce
 
 Navigate to the project directory:
 
