@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere - Accessories</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/page.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <main>
+      <div class="topLinks">
+        <a href="index.html">Home</a>
+        <p>></p>
+        <a href="fashion.html">Fashion</a>
+        <p>></p>
+        <a href="accessories.html"><strong>Accessories</strong></a>
+      </div>
+
+      <div class="topImage">
+        <img
+          src="./images/Topbar Images/Fashion/Women/women5.jpg"
+          alt="women5"
+        />
+      </div>
+
+      <div class="parent">
+        <div class="child1">
+          <h4>Category</h4>
+          <div class="filter">
+            <button class="allProducts">All Products</button><br />
+            <button class="category1">Men</button> <br />
+            <button class="category2">Women</button><br />
+            <button class="category3">Kid</button><br />
+            <button class="category4">All Categories</button><br />
+          </div>
+          <!-- <select class="filter">
+                    <option value="Sprituality">Religion & Sprituality</option>
+                    <option value="contemporaryFiction"> Contemporary Fiction</option>
+                    <option value="childrenBooks">Children Interactive & Activity Books</option>
+                    <option value="analysisStrategy">Analysis & Strategy</option>
+                </select> -->
+          <div class="otherCategories">
+            <h5>Sort By Price</h5>
+            <button id="sortLH">Low to High</button>
+            <br />
+            <button id="sortHL">High to Low</button>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Brand</h5>
+            <section>
+              <input type="checkbox" placeholder="H&M" />
+              <label for="H&M">H&M</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Shining Diva" />
+              <label for="Shining Diva">Shining Diva</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Boldfit" />
+              <label for="Boldfit">Boldfit</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="YouBella" />
+              <label for="YouBella">YouBella</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Fab Season" />
+              <label for="Fab Season">Fab Season</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="FabSeason" />
+              <label for="FabSeason">FabSeason</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Invisibobble" />
+              <label for="Invisibobble">Invisibobble</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Deals & Discounts</h5>
+            <section>
+              <input type="checkbox" placeholder="All Discounts" />
+              <label for="All Discounts">All Discounts</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Today's Discounts" />
+              <label for="Today's Discounts">Today's Discounts</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Select Brands</h5>
+            <section>
+              <input type="checkbox" placeholder="Top Brands" />
+              <label for="Top Brands">Top Brands</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Premium Brands" />
+              <label for="Premium Brands">Premium Brands</label>
+            </section>
+          </div>
+
+          <div class="sidebarImage">
+            <img src="./images/Sidebar Images/fashion4.jpg" alt="books1" />
+          </div>
+        </div>
+        <!-- child1 closed here  -->
+        <div class="child2">
+          <h2>Results</h2>
+          <div class="accessoriesProducts"></div>
+          <div class="pagination"></div>
+        </div>
+        <!-- child2 closed here -->
+      </div>
+      <!-- parent closed here  -->
+    </main>
+    <footer class="footer"></footer>
+    <script type="module" src="./Scripts/accessories.js"></script>
+    <script type="module" src="./Scripts/navbar.js"></script>
+    <script type="module" src="./Scripts/footer.js"></script>
+  </body>
+</html>

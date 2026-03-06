@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere - Laptop</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/page.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <main>
+      <div class="topLinks">
+        <a href="index.html">Home</a>
+        <p>></p>
+        <a href="electronics.html">Electronics</a>
+        <p>></p>
+        <a href="laptop.html"><strong>Laptop</strong></a>
+      </div>
+
+      <div class="topImage">
+        <img
+          src="./images/Topbar Images/Electronics/Laptop/laptop1.webp"
+          alt="laptop1"
+        />
+      </div>
+
+      <div class="parent">
+        <div class="child1">
+          <h4>Category</h4>
+          <div class="filter">
+            <button class="allProducts">All Products</button><br />
+            <button class="category1">HP</button> <br />
+            <button class="category2">Lenovo</button><br />
+            <button class="category3">Asus</button><br />
+            <button class="category4">Dell</button><br />
+          </div>
+          <!-- <select class="filter">
+                    <option value="Sprituality">Religion & Sprituality</option>
+                    <option value="contemporaryFiction"> Contemporary Fiction</option>
+                    <option value="childrenBooks">Children Interactive & Activity Books</option>
+                    <option value="analysisStrategy">Analysis & Strategy</option>
+                </select> -->
+          <div class="otherCategories">
+            <h5>Sort By Price</h5>
+            <button id="sortLH">Low to High</button>
+            <br />
+            <button id="sortHL">High to Low</button>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Brand</h5>
+            <section>
+              <input type="checkbox" placeholder="Acer" />
+              <label for="Acer">Acer</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="MSI" />
+              <label for="MSI">MSI</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Samsung" />
+              <label for="Samsung">Samsung</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Apple" />
+              <label for="Apple">Apple</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Microsoft" />
+              <label for="Microsoft">Microsoft</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="AVITA" />
+              <label for="AVITA">AVITA</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Infnix" />
+              <label for="Infnix">Infnix</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Deals & Discounts</h5>
+            <section>
+              <input type="checkbox" placeholder="All Discounts" />
+              <label for="All Discounts">All Discounts</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Today's Discounts" />
+              <label for="Today's Discounts">Today's Discounts</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Item Condition</h5>
+            <section>
+              <input type="checkbox" placeholder="New" />
+              <label for="New">New</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Renewed" />
+              <label for="Renewed">Renewed</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>CPU Type</h5>
+            <section>
+              <input type="checkbox" placeholder="AMD Ryzen 3" />
+              <label for="AMD Ryzen 3">AMD Ryzen 3</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="AMD Ryzen 5" />
+              <label for="AMD Ryzen 5">AMD Ryzen 5</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="AMD Ryzen 7" />
+              <label for="AMD Ryzen 7">AMD Ryzen 7</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="AMD Ryzen 9" />
+              <label for="AMD Ryzen 9">AMD Ryzen 9</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Apple M2 Ultra" />
+              <label for="Apple M2 Ultra">Apple M2 Ultra</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Intel Core i3" />
+              <label for="Intel Core i3">Intel Core i3</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Intel Core i5" />
+              <label for="Intel Core i5">Intel Core i5</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Intel Core i7" />
+              <label for="Intel Core i7">Intel Core i7</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Intel Core i9" />
+              <label for="Intel Core i9">Intel Core i9</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Select Brands</h5>
+            <section>
+              <input type="checkbox" placeholder="Top Brands" />
+              <label for="Top Brands">Top Brands</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Premium Brands" />
+              <label for="Premium Brands">Premium Brands</label>
+            </section>
+          </div>
+
+          <div class="sidebarImage">
+            <img
+              src="./images/Sidebar Images/electronics1.jpg"
+              alt="electronics1"
+            />
+          </div>
+        </div>
+        <!-- child1 closed here  -->
+        <div class="child2">
+          <h2>Results</h2>
+          <div class="laptopProducts"></div>
+          <div class="pagination"></div>
+        </div>
+        <!-- child2 closed here -->
+      </div>
+      <!-- parent closed here  -->
+    </main>
+    <footer class="footer"></footer>
+    <script type="module" src="./Scripts/laptop.js"></script>
+    <script type="module" src="./Scripts/navbar.js"></script>
+    <script type="module" src="./Scripts/footer.js"></script>
+  </body>
+</html>

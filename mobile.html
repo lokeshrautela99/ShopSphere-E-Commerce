@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere - Mobile Phones</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/page.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <main>
+      <div class="topLinks">
+        <a href="index.html">Home</a>
+        <p>></p>
+        <a href="electronics.html">Electronics</a>
+        <p>></p>
+        <a href="mobile.html"><strong>Mobile Phones</strong></a>
+      </div>
+
+      <div class="topImage">
+        <img
+          src="./images/Topbar Images/Electronics/electronis1.webp"
+          alt="electronis1"
+        />
+      </div>
+
+      <div class="parent">
+        <div class="child1">
+          <h4>Category</h4>
+          <div class="filter">
+            <button class="allProducts">All Products</button><br />
+            <button class="category1">OnePlus</button><br />
+            <button class="category2">Iphone</button><br />
+            <button class="category3">Google</button><br />
+            <button class="category4">Samsung</button><br />
+          </div>
+          <!-- <select class="filter">
+                    <option value="Sprituality">Religion & Sprituality</option>
+                    <option value="contemporaryFiction"> Contemporary Fiction</option>
+                    <option value="childrenBooks">Children Interactive & Activity Books</option>
+                    <option value="analysisStrategy">Analysis & Strategy</option>
+                </select> -->
+          <div class="otherCategories">
+            <h5>Sort By Price</h5>
+            <button id="sortLH">Low to High</button>
+            <br />
+            <button id="sortHL">High to Low</button>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Brand</h5>
+            <section>
+              <input type="checkbox" placeholder="Redmi" />
+              <label for="Redmi">Redmi</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Motorola" />
+              <label for="Motorola">Motorola</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="realme" />
+              <label for="realme">realme</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Poco" />
+              <label for="Poco">Poco</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Vivo" />
+              <label for="Vivo">Vivo</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Xiaomi" />
+              <label for="Xiaomi">Xiaomi</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Nokia" />
+              <label for="Nokia">Nokia</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Oppo" />
+              <label for="Oppo">Oppo</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="iQOO" />
+              <label for="iQOO">iQOO</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Deals & Discounts</h5>
+            <section>
+              <input type="checkbox" placeholder="All Discounts" />
+              <label for="All Discounts">All Discounts</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Today's Discounts" />
+              <label for="Today's Discounts">Today's Discounts</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Item Condition</h5>
+            <section>
+              <input type="checkbox" placeholder="New" />
+              <label for="New">New</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Used" />
+              <label for="Used">Used</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Select Brands</h5>
+            <section>
+              <input type="checkbox" placeholder="Top Brands" />
+              <label for="Top Brands">Top Brands</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Premium Brands" />
+              <label for="Premium Brands">Premium Brands</label>
+            </section>
+          </div>
+
+          <div class="sidebarImage">
+            <img
+              src="./images/Sidebar Images/electronics1.jpg"
+              alt="electronics1"
+            />
+          </div>
+        </div>
+        <!-- child1 closed here  -->
+        <div class="child2">
+          <h2>Results</h2>
+          <div class="mobileProducts"></div>
+          <div class="pagination"></div>
+        </div>
+        <!-- child2 closed here -->
+      </div>
+      <!-- parent closed here  -->
+    </main>
+    <footer class="footer"></footer>
+    <script type="module" src="./Scripts/mobile.js"></script>
+    <script type="module" src="./Scripts/navbar.js"></script>
+    <script type="module" src="./Scripts/footer.js"></script>
+  </body>
+</html>

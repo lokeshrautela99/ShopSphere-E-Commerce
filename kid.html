@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere - Kid Fashion</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/page.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <main>
+      <div class="topLinks">
+        <a href="index.html">Home</a>
+        <p>></p>
+        <a href="fashion.html">Fashion</a>
+        <p>></p>
+        <a href="kid.html"><strong>Kid</strong></a>
+      </div>
+
+      <div class="topImage">
+        <img src="./images/Topbar Images/Fashion/Kid/kid3.jpg" alt="kid3" />
+      </div>
+
+      <div class="parent">
+        <div class="child1">
+          <h4>Category</h4>
+          <div class="filter">
+            <button class="allProducts">All Products</button><br />
+            <button class="category1">Jeans</button> <br />
+            <button class="category2">T-Shirts</button><br />
+            <button class="category3">Cap</button><br />
+            <button class="category4">Shoes</button><br />
+          </div>
+          <!-- <select class="filter">
+                    <option value="Sprituality">Religion & Sprituality</option>
+                    <option value="contemporaryFiction"> Contemporary Fiction</option>
+                    <option value="childrenBooks">Children Interactive & Activity Books</option>
+                    <option value="analysisStrategy">Analysis & Strategy</option>
+                </select> -->
+          <div class="otherCategories">
+            <h5>Sort By Price</h5>
+            <button id="sortLH">Low to High</button>
+            <br />
+            <button id="sortHL">High to Low</button>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Brand</h5>
+            <section>
+              <input type="checkbox" placeholder="H&M" />
+              <label for="H&M">H&M</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Fashion Dream" />
+              <label for="Fashion Dream">Fashion Dream</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Jockey" />
+              <label for="Jockey">Jockey</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Stanwells Kids" />
+              <label for="Stanwells Kids">Stanwells Kids</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Hopscotch" />
+              <label for="Hopscotch">Hopscotch</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Fab Season" />
+              <label for="Fab Season">Fab Season</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="T2F" />
+              <label for="T2F">T2F</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Deals & Discounts</h5>
+            <section>
+              <input type="checkbox" placeholder="All Discounts" />
+              <label for="All Discounts">All Discounts</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Today's Discounts" />
+              <label for="Today's Discounts">Today's Discounts</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Select Brands</h5>
+            <section>
+              <input type="checkbox" placeholder="Top Brands" />
+              <label for="Top Brands">Top Brands</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Premium Brands" />
+              <label for="Premium Brands">Premium Brands</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Apparel Material</h5>
+            <section>
+              <input type="checkbox" placeholder="Art Silk" />
+              <label for="Art Silk">Art Silk</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Chiffon" />
+              <label for="Chiffon">Chiffon</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Cotton" />
+              <label for="Cotton">Cotton</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Denim" />
+              <label for="Denim">Denim</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Linen" />
+              <label for="Linen">Linen</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Fit Type</h5>
+            <section>
+              <input type="checkbox" placeholder="Fitted" />
+              <label for="Fitted">Fitted</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Loose Fit" />
+              <label for="Loose Fit">Loose Fit</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Oversiezed Fit" />
+              <label for="Oversiezed Fit">Oversiezed Fit</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Skinny Fit" />
+              <label for="Skinny Fit">Skinny Fit</label>
+            </section>
+          </div>
+
+          <div class="sidebarImage">
+            <img src="./images/Sidebar Images/fashion4.jpg" alt="books1" />
+          </div>
+        </div>
+        <!-- child1 closed here  -->
+        <div class="child2">
+          <h2>Results</h2>
+          <div class="kidProducts"></div>
+          <div class="pagination"></div>
+        </div>
+        <!-- child2 closed here -->
+      </div>
+      <!-- parent closed here  -->
+    </main>
+    <footer class="footer"></footer>
+    <script type="module" src="./Scripts/kid.js"></script>
+    <script type="module" src="./Scripts/navbar.js"></script>
+    <script type="module" src="./Scripts/footer.js"></script>
+  </body>
+</html>

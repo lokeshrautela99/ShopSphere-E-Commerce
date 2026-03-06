@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere - Books</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/page.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <main>
+      <div class="topLinks">
+        <a href="index.html">Home</a>
+        <p>></p>
+        <a href="books.html"><strong>Books</strong></a>
+      </div>
+
+      <div class="topImage">
+        <img src="./images/Topbar Images/Books/books1.webp" alt="books1" />
+      </div>
+
+      <div class="parent">
+        <div class="child1">
+          <h4>Category</h4>
+          <div class="filter">
+            <button class="allProducts">All Books</button><br />
+            <button class="category1">Contemporary Fiction</button><br />
+            <button class="category2">Religion & Sprituality</button> <br />
+            <button class="category3">Children Interactive Books</button><br />
+            <button class="category4">Analysis & Strategy</button><br />
+          </div>
+
+          <div class="otherCategories">
+            <h5>Sort By Price</h5>
+            <button id="sortLH">Low to High</button>
+            <br />
+            <button id="sortHL">High to Low</button>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Author</h5>
+            <section>
+              <input type="checkbox" />
+              <label for="Swami Vivekananda">Swami Vivekananda</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Lee Lyon">Lee Lyon</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Paramahansa Yogananda">Paramahansa Yogananda</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Amish Tripathi">Amish Tripathi</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Munshi Premchand">Munshi Premchand</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Chetan Bhagat">Chetan Bhagat</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Paulo Coelho">Paulo Coelho</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Languages</h5>
+            <section>
+              <input type="checkbox" />
+              <label for="English">English</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Hidi">Hindi</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Sanskrit">Sanskrit</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Punjabi">Punjabi</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Marathi">Marathi</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Tamil">Tamil</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Telugu">Telugu</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Deals & Discounts</h5>
+            <section>
+              <input type="checkbox" />
+              <label for="All Discounts">All Discounts</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Today's Discounts">Today's Discounts</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Format</h5>
+            <section>
+              <input type="checkbox" />
+              <label for="Audiobooks">Audiobooks</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Audible Edition">Audible Edition</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Bath Book">Bath Book</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Board Book">Board Book</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Bound">Bound</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Kindle eBooks">Kindle eBooks</label>
+            </section>
+            <section>
+              <input type="checkbox" />
+              <label for="Bundle">Bundle</label>
+            </section>
+          </div>
+
+          <div class="sidebarImage">
+            <img src="./images/Sidebar Images/books1.jpg" alt="books1" />
+          </div>
+        </div>
+        <!-- child1 closed here  -->
+        <div class="child2">
+          <div class="categories-div">
+            <div class="cat-div1">
+              <p>Categories</p>
+              <div class="filterS">
+                <button class="allProductsS">All Books</button><br />
+                <button class="category1S">Contemporary Fiction</button><br />
+                <button class="category2S">Religion & Sprituality</button> <br />
+                <button class="category3S">Children Interactive Books</button
+                ><br />
+                <button class="category4S">Analysis & Strategy</button><br />
+              </div>
+            </div>
+            <div class="cat-div2">
+              <p>Sort By Price</p>
+              <div class="sortS">
+                <button class="sortLH">Low to High</button>
+                <br />
+                <button class="sortHL">High to Low</button>
+              </div>
+            </div>
+          </div>
+          <!-- categories-div ends here -->
+
+          <h2>Results <span class="totalItems"></span></h2>
+          <div class="booksProducts"></div>
+          <div class="pagination"></div>
+        </div>
+        <!-- child2 closed here -->
+      </div>
+      <!-- parent closed here  -->
+    </main>
+    <footer class="footer"></footer>
+    <script type="module" src="./Scripts/books.js"></script>
+    <script type="module" src="./Scripts/navbar.js"></script>
+    <script type="module" src="./Scripts/footer.js"></script>
+  </body>
+</html>

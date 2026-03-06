@@ -1,0 +1,372 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#searchAlert{
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  display: none;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+.carousel{
+  background: white;
+  color: white;
+}
+
+.flickity-button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 5px #FFFFFF
+}
+
+
+.carousel-cell {
+  width: 100%;
+  height: 400px;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+}
+.carousel-cell img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-cell:before {
+  display: block;
+  content: counter(gallery-cell);
+}
+
+.flickity-page-dots {
+  bottom: 0px;
+}
+
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+.flickity-page-dots .dot.is-selected {
+  background-color: #706f6f;
+}
+
+.slider1 {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+
+.slider1 img {
+  width: 100%;
+  height: 100%;
+}
+.heading {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 20px 0px 5px 0px;
+}
+
+.heading a {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.categories {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 13px;
+}
+
+.categories a {
+  text-decoration: none;
+}
+
+.categories div {
+  width: 100%;
+  height: 350px;
+  border-radius: 6px;
+}
+
+.categories div p {
+  background-color: rgb(124, 124, 124);
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-radius: 2px;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+hr {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.e1,
+.e2,
+.e3,
+.e4
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.f1 {
+  background-image: url(../images/Main/Men/men1.avif);
+}
+.f2 {
+  background-image: url(../images/Main/women/women1.avif);
+}
+.f3 {
+  background-image: url(../images/Main/Kid/kid1.avif);
+}
+.f4 {
+  background-image: url(../images/Main/Accessories/accessories1.avif);
+}
+
+.e1 {
+  background-image: url(../images/Main/MobilePhones/mobilePhone1.avif);
+}
+.e2 {
+  background-image: url(../images/Main/Headphones/headphones1.jpg);
+}
+.e3 {
+  background-image: url(../images/Main/Laptop/laptop1.avif);
+}
+.e4 {
+  background-image: url(../images/Main/GamingConsole/gamingConsole1.avif);
+}
+
+.anchorImg{
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 40px;
+  
+}
+.anchorImg img{
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.booksProducts,
+.homeDecorProducts {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.booksProducts::-webkit-scrollbar {
+  display: none;
+}
+.homeDecorProducts::-webkit-scrollbar {
+  display: none;
+}
+.searchedProducts {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+.searchedProducts .items img {
+  width: 100%;
+  height: 260px;
+}
+
+.items{
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+  border: 1px solid rgb(211, 208, 208);
+  position: relative;
+}
+
+.items img {
+  width: 260px;
+  height: 260px;
+}
+
+.items h2 {
+  font-size: 16px;
+  color: rgb(20, 20, 20);
+  margin-top: 5px;
+}
+
+.items h3{
+  font-size: 12px;
+  color: rgb(63, 61, 61);
+  margin-top: 5px;
+}
+
+.items p{
+  color: rgb(49, 48, 48);
+  margin-top: 5px;
+  font-weight: bold;
+  color: green;
+}
+
+.items h5 {
+  text-decoration: line-through;
+  color: rgb(49, 48, 48);
+  margin-top: 5px;
+}
+
+.items button{
+  background-color: rgb(245, 161, 4);
+    color: white;
+    margin-top: 5px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius:4px;
+}
+
+.addFav{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 6px 7px 4px 7px;
+  border-radius: 50%;
+  background-color: #f7f5f5;
+  border: none;
+  z-index: 10;
+  border: 1px  solid rgb(230, 227, 227);
+}
+
+.slider2 {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+}
+.slider2 img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .searchedProducts {
+    width: 96%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .searchedProducts .items img {
+    width: 100%;
+    height: 240px;
+  }
+  .items img {
+    width: 200px;
+    height: 260px;
+  }
+  .items h2,.items h3{
+    font-size: small;
+  }
+  .items p{
+    font-size: small;
+  }
+  .items h5{
+    font-size: small;
+  }
+  .items button{
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 499px) {
+  .carousel-cell{
+    height: 200px;
+  }
+  .heading {
+    width: 96%;
+  }
+  .categories {
+    width: 96%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .categories div {
+    width: 100%;
+    height: 250px;
+    border-radius: 6px;
+  }
+  hr{
+    width: 96%;
+  }
+  .booksProducts,
+.homeDecorProducts {
+  width: 96%;
+}
+.searchedProducts {
+  width: 98%;
+  grid-template-columns: repeat(2, 1fr);
+}
+.searchedProducts .items img {
+  width: 100%;
+  height: 240px;
+}
+.items {
+  width: 100%;
+}
+
+.items img {
+  width: 150px;
+  height: 200px;
+}
+.items h3{
+  font-size: x-small;
+}
+.items h2{
+  font-size: small;
+}
+.items p{
+  font-size: x-small;
+}
+.items h5{
+  font-size: x-small;
+}
+.items button{
+  font-size: x-small;  
+}
+
+  .slider2 {
+    width: 96%;
+    height: 120px;
+  }
+  .flickity-button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 5px #FFFFFF
+  }
+}

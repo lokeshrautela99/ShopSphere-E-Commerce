@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere - Gaming Console</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/page.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <main>
+      <div class="topLinks">
+        <a href="index.html">Home</a>
+        <p>></p>
+        <a href="electronics.html">Electronics</a>
+        <p>></p>
+        <a href="gaming.html"><strong>Gaming Console</strong></a>
+      </div>
+
+      <div class="topImage">
+        <img
+          src="./images/Topbar Images/Electronics/GamingConsole/gamingConsole2.jpg"
+          alt="gamingConsole2"
+        />
+      </div>
+
+      <div class="parent">
+        <div class="child1">
+          <h4>Category</h4>
+          <div class="filter">
+            <button class="allProducts">All Products</button><br />
+            <button class="category1">Video Games</button> <br />
+            <button class="category2">PSP</button><br />
+            <button class="category3">Handheld Games</button><br />
+            <button class="category4">Gamepad</button><br />
+          </div>
+          <!-- <select class="filter">
+                    <option value="Sprituality">Religion & Sprituality</option>
+                    <option value="contemporaryFiction"> Contemporary Fiction</option>
+                    <option value="childrenBooks">Children Interactive & Activity Books</option>
+                    <option value="analysisStrategy">Analysis & Strategy</option>
+                </select> -->
+          <div class="otherCategories">
+            <h5>Sort By Price</h5>
+            <button id="sortLH">Low to High</button>
+            <br />
+            <button id="sortHL">High to Low</button>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Brand</h5>
+            <section>
+              <input type="checkbox" placeholder="TMG" />
+              <label for="TMG">TMG</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Careflection" />
+              <label for="Careflection">Careflection</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Valve Index" />
+              <label for="Valve Index">Valve Index</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Credev Zone" />
+              <label for="Credev Zone">Credev Zone</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="REES52" />
+              <label for="REES52">REES52</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="EWDGOES" />
+              <label for="EWDGOES">EWDGOES</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="QAWACHH" />
+              <label for="QAWACHH">QAWACHH</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Deals & Discounts</h5>
+            <section>
+              <input type="checkbox" placeholder="All Discounts" />
+              <label for="All Discounts">All Discounts</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Today's Discounts" />
+              <label for="Today's Discounts">Today's Discounts</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Item Condition</h5>
+            <section>
+              <input type="checkbox" placeholder="New" />
+              <label for="New">New</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Used" />
+              <label for="Used">Used</label>
+            </section>
+          </div>
+
+          <div class="otherCategories">
+            <h5>Select Brands</h5>
+            <section>
+              <input type="checkbox" placeholder="Top Brands" />
+              <label for="Top Brands">Top Brands</label>
+            </section>
+            <section>
+              <input type="checkbox" placeholder="Premium Brands" />
+              <label for="Premium Brands">Premium Brands</label>
+            </section>
+          </div>
+
+          <div class="sidebarImage">
+            <img
+              src="./images/Sidebar Images/gamingConsole1.jpg"
+              alt="gamingConsole1"
+            />
+          </div>
+        </div>
+        <!-- child1 closed here  -->
+        <div class="child2">
+          <h2>Results</h2>
+          <div class="gamingProducts"></div>
+          <div class="pagination"></div>
+        </div>
+        <!-- child2 closed here -->
+      </div>
+      <!-- parent closed here  -->
+    </main>
+    <footer class="footer"></footer>
+    <script type="module" src="./Scripts/gaming.js"></script>
+    <script type="module" src="./Scripts/navbar.js"></script>
+    <script type="module" src="./Scripts/footer.js"></script>
+  </body>
+</html>

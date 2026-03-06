@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/cart.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <main id="cart-main">
+      <div id="cartHead">
+        <div>
+          <p>Free shipping above Rs.1999</p>
+          <p>Estimated delivery time:2-7 days</p>
+          <p>Free & flexible 15 days return</p>
+        </div>
+        <h1>Shopping bag</h1>
+      </div>
+      <div id="explorItem">
+        <p id="cartAlert"></p>
+        <button id="doShopping">Browse now</button>
+      </div>
+      <div id="cartParentDiv">
+        <div id="cartChild1">
+          <div id="cartProducts"></div>
+        </div>
+        <!-- child1 closed  -->
+        <div id="cartChild2">
+          <div id="paymentContent">
+            <div class="amountText">
+              <p class="boldP">Discounts</p>
+              <a id="discountPage" href="discount.html">Apply discount</a>
+            </div>
+            <div class="amountText">
+              <p class="boldP">order value</p>
+              <p id="total">0</p>
+            </div>
+            <div class="amountText">
+              <p class="boldP">Discount</p>
+              <p id="discount">0</p>
+            </div>
+            <div class="amountText">
+              <p class="boldP">Delivery Charges</p>
+              <p id="deliveryCharges">0</p>
+            </div>
+            <hr />
+            <div class="amountText">
+              <p class="boldP">Total</p>
+              <p id="finalAmount">0</p>
+            </div>
+
+            <button id="checkout">Continue to Checkout</button>
+
+            <div id="paymentInfoDiv">
+              <p class="infoP">We accept</p>
+              <div id="imgDiv">
+                <p class="infoP">Cash on Delivery</p>
+                <a href="">
+                  <img
+                    class="infoImg"
+                    src="/images/Cart/MasterCard.PNG"
+                    alt="Master Card"
+                  />
+                </a>
+                <a href="">
+                  <img class="infoImg" src="/images/Cart/VISA.PNG" alt="VISA" />
+                </a>
+                <a href="">
+                  <img class="infoImg" src="/images/Cart/Gpay.PNG" alt="Gpay" />
+                </a>
+                <a href="">
+                  <img
+                    class="infoImg"
+                    src="/images/Cart/ApplePay.PNG"
+                    alt="Apple Pay"
+                  />
+                </a>
+                <a href="">
+                  <img
+                    class="infoImg"
+                    src="/images/Cart/PayPal.PNG"
+                    alt="Pay Pal"
+                  />
+                </a>
+              </div>
+              <div>
+                <p class="infoP">
+                  Prices and delivery costs are not confirmed until you've
+                  reached the checkout.
+                </p>
+
+                <p class="infoP">
+                  15 days free returns. Read more about return and refund
+                  poilcy. Customers would receive an SMS/WhatsApp notidicaitons
+                  regarding deliveries on the registered phone number
+                </p>
+              </div>
+            </div>
+            <!-- paymentInfoDiv -->
+          </div>
+          <!-- paytmentContent Closed  -->
+        </div>
+        <!-- Child2 closed  -->
+      </div>
+      <!-- Parent Closed  -->
+    </main>
+    <!-- Main Closed  -->
+
+    <footer class="footer"></footer>
+    <script type="module" src="./Scripts/cart.js"></script>
+    <script type="module" src="./Scripts/navbar.js"></script>
+    <script type="module" src="./Scripts/footer.js"></script>
+  </body>
+</html>

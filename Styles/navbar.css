@@ -1,0 +1,391 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    color: white;
+    position: sticky;
+    top: 0px;
+    font-family: sans-serif;
+    z-index: 1000;
+    background-color: black;
+}
+
+.burgerMenu, .burgerSlider{
+    display: none;
+}
+
+.upperNav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;    
+    padding: 0px 10px 0px 10px;
+}
+.brandLogo a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.catDiv{
+    width: auto;
+    height: 60px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.searchBar{
+    width: 60%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.searchBar input{
+    width: 85%;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+    font-size: medium;
+    border: none;
+}
+.searchBar button{
+    width: 14%;
+    height: 34px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    margin-top: 1px;
+    font-size: medium;
+    border: 2px solid white;
+}
+
+.searchBar button:hover {
+    font-size: large;
+}
+
+.navPageDiv{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 20px 0px 20px;
+}
+
+.navPageDiv div img{
+    width: 25px;
+    height: 25px;
+}
+
+.cartCount{
+    padding: 2px 4px 0px 4px;
+    position: absolute;
+    right: 28px;
+    top: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.lowerNav{
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    padding: 0px 0px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lowerNavDiv{
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.dropdown a{
+    color: white;
+    text-decoration: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 2px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+    background-color: grey;
+    color: white;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+    .navbar{
+        height: 100px;
+    }
+    .upperNav{
+        height: 60px;
+        padding: 0px 5px 0px 5px;
+    }
+    
+       .brandLogo a{
+        font-size: large;
+       }
+        
+       .catDiv p{
+        font-size: small;
+       }
+    
+       .searchBar{
+        width: 50%;
+        height: 30px;
+       }
+    
+       .searchBar input{
+        width: 75%;
+        height: 100%;
+    }
+    .searchBar button{
+        width: 24%;
+        height: 100%;
+        font-size: small;
+        margin-top: 0px;
+        
+    }
+    
+    .navPageDiv{
+        height: 30px;
+        padding: 0px;
+        justify-content: space-between;
+        gap: 5px;
+    }
+    
+       .cartCount{
+        padding: 2px 4px 0px 4px;
+        position: absolute;
+        right: 4px;
+    }
+    .lowerNav{
+        padding: 0px 0px 0px 60px;
+    }
+    .lowerNavDiv{
+        width: 80%;
+        font-size: small;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 499px) {
+.navbar{
+    height: 60px;
+}
+.upperNav{
+    height: 100%;
+    padding: 0px 5px 0px 5px;
+}
+   .burgerMenu{
+    display: block;
+    height: 30px;
+    width: 35px;
+   }
+   .burgerMenu img{
+    height: 100%;
+    width: 100%;
+   }
+   .burgerSlider {
+    width: 90%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .closed {
+    display: block;
+    width: 35px;
+    height: 60px;
+    border: 0px;
+    position: absolute;
+    background-color: black;
+    border-radius: 8px;
+    font-size: xx-large;
+    color: white;
+  }
+
+  .slider_brand {
+    text-decoration: none;
+  }
+
+  #slider_brand {
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+  }
+
+  #option {
+    width: 100%;
+    height: auto;
+  }
+
+  #optAcc,
+  #optLogin {
+    width: 98%;
+    height: 45px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid rgb(224, 220, 220);
+  }
+
+  #optAcc img,
+  #optLogin img {
+    width: 33px;
+    height: 33px;
+  }
+
+  #optAcc a,
+  #optLogin a {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px 0px 0px 0px;
+  }
+
+  #optAcc p,
+  #optLogin p {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  #optAcc {
+    display: none;
+  }
+
+  #opt-3 {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .sidebar-link {
+    width: 100%;
+    height: 35px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 14px 0px 0px 7px;
+    border-bottom: 1px solid rgb(224, 220, 220);
+  }
+
+  #burger-footer {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: black;
+    text-align: center;
+  }
+
+  #burger-footer p {
+    font-size: small;
+    color: white;
+    padding: 20px 0px 10px 0px;
+  }
+
+   .brandLogo{
+    display: none;
+   }
+
+   .catDiv{
+    display: none;
+   }
+
+   .searchBar{
+    width: 70%;
+    height: 30px;
+   }
+
+   .searchBar input{
+    width: 75%;
+    height: 100%;
+}
+.searchBar button{
+    width: 24%;
+    height: 100%;
+}
+
+.navPageDiv{
+    height: 30px;
+    padding: 0px;
+}
+
+.navPageDiv div img{
+    width: 25px;
+    height: 30px;
+}
+   .navPageDiv div:nth-child(1){
+    display: none;
+   }
+
+   .cartCount{
+    padding: 2px 4px 0px 4px;
+    position: absolute;
+    right: 0px;
+}
+    .lowerNav{
+        display: none;
+    }
+
+}

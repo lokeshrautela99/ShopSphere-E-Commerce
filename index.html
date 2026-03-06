@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere - Home Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <section id="searchedDiv">
+      <p id="searchAlert">Items not found!</p>
+      <div class="searchedProducts"></div>
+    </section>
+    
+    <main id="main">
+      <div class="carousel" data-flickity>
+        <div class="carousel-cell" ><a href="gaming.html"><img   src="./images/Main/Slider/slider1.jfif" alt=""></a></div>
+        <div class="carousel-cell" ><a href="homeDecor.html"><img  src="./images/Main/Slider/slider2.jfif" alt=""></a></div>
+        <div class="carousel-cell" ><a href="electronics.html"><img  src="./images/Main/Slider/slider3.jfif" alt=""></a></div>
+        <div class="carousel-cell" ><a href="homeDecor.html"><img  src="./images/Main/Slider/slider4.jfif" alt=""></a></div>
+      </div>
+      <div class="heading">
+        <a href="fashion.html">Fashion</a>
+      </div>
+      <hr />
+      <div class="categories">
+        <a href="men.html">
+          <div class="f1">
+            <p>Men</p>
+          </div>
+        </a>
+        <a href="women.html">
+          <div class="f2">
+            <p>Women</p>
+          </div>
+        </a>
+        <a href="kid.html">
+          <div class="f3">
+            <p>Kid</p>
+          </div>
+        </a>
+        <a href="accessories.html">
+          <div class="f4">
+            <p>Accessories</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="heading">
+        <a href="books.html">Books</a>
+      </div>
+      <hr>
+      <div class="booksProducts"></div>
+
+      <div class="heading">
+        <a href="electronics.html">Electronics</a>
+      </div>
+      <hr />
+      <div class="categories">
+        <a href="mobile.html">
+          <div class="e1">
+            <p>Mobile Phones</p>
+          </div>
+        </a>
+        <a href="headphone.html">
+          <div class="e2">
+            <p>Headphones</p>
+          </div>
+        </a>
+        <a href="laptop.html">
+          <div class="e3">
+            <p>Laptop</p>
+          </div>
+        </a>
+        <a href="gaming.html">
+          <div class="e4">
+            <p>Gaming Console</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="heading">
+        <a href="homeDecor.html">Home Decor</a>
+      </div>
+      <hr>
+      <div class="homeDecorProducts"></div>
+
+      <div class="slider2"></div>
+    </main>
+    <footer class="footer"></footer>
+    <script type="module" src="./Scripts/index.js"></script>
+    <script type="module" src="./Scripts/navbar.js"></script>
+    <script type="module" src="./Scripts/footer.js"></script>
+  </body>
+  </html>
+  

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere - Login</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/login.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <main>
+      <section class="parent1">
+        <form id="signInForm" action="">
+          <h1>SIGN IN</h1>
+          <label for="userEmail">Email</label>
+          <input id="userEmail" type="email" required />
+          <label for="uesrPassword">Password</label>
+          <input id="uesrPassword" type="password" required />
+          <input class="submit" type="submit" value="S U B M I T" />
+          <div class="linkDiv">
+            <p id="forgetPass">Forget Password?</p>
+            <p id="signUp">Sign Up</p>
+          </div>
+        </form>
+      </section>
+      <!-- parent1 closed  -->
+
+      <section class="parent2">
+        <form id="signUpForm" action="">
+          <h1>SIGN UP</h1>
+          <label for="name">Name</label>
+          <input id="name" type="text" required />
+          <label for="email">Email</label>
+          <input id="email" type="email" required />
+          <label for="mblNum">Mobile Number</label>
+          <input id="mblNum" type="text" required />
+          <label for="password">Password</label>
+          <input id="password" type="password" required />
+          <label for="confirmPassword">Confirm Password</label>
+          <input id="confirmPassword" type="text" required />
+          <input class="submit" type="submit" value="S U B M I T" />
+        </form>
+      </section>
+      <!-- parent2 closed  -->
+
+      <section class="parent3">
+        <form id="resetForm" action="">
+          <h1>Reset Password</h1>
+          <label for="registerMblNum">Register mobile number</label>
+          <input id="registerMblNum" type="text" required />
+          <label for="otp">Enter OTP</label>
+          <input id="otp" type="text" required />
+          <input class="submit" type="submit" value="S E N D  O T P" />
+        </form>
+      </section>
+      <!-- parent3 closed  -->
+    </main>
+    <footer class="footer"></footer>
+    <script type="module" src="./Scripts/login.js"></script>
+    <script type="module" src="./Scripts/navbar.js"></script>
+    <script type="module" src="./Scripts/footer.js"></script>
+  </body>
+</html>
